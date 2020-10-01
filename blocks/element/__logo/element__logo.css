@@ -1,0 +1,11 @@
+.element__logo {
+    object-fit: cover;
+    height: 282px;
+    width: 282px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: none;
+    border: none;
+}

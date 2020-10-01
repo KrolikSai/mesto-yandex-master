@@ -1,0 +1,11 @@
+.element {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 361px;
+    width: 282px;
+    display: grid;
+    grid-template-columns: 205.5px 21px;
+    grid-template-rows: 282px 79px;
+    column-gap: 33px;
+    row-gap: 0;
+}

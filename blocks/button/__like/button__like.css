@@ -1,0 +1,12 @@
+.button__like {
+    height: 18px;
+    width: 21px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    box-shadow: none;
+    border: none;
+    background-color: #FFFFFF;
+    padding-right: 17.24px;
+    align-self: center;
+}
+    

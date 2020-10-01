@@ -1,0 +1,12 @@
+.popup__close-image {
+    background: #000000;
+    position: absolute;
+    height: 40.69827963795126px;
+    width: 40.69827963795126px;
+    left: 843px;
+    top: 148px;
+}
+.popup__close-image:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

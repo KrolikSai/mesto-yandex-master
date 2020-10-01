@@ -1,0 +1,11 @@
+.button__add {
+    height: 50px;
+    width: 150px;
+    border: 2px solid #FFFFFF;    
+    box-sizing: border-box;
+    background-color: #000000;
+}
+.button__add:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

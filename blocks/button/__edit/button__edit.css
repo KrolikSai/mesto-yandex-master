@@ -1,0 +1,14 @@
+.button__edit {
+    background-color: #000000;
+    padding: 0;
+    border: none;
+    background: none;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    box-shadow: none;
+    align-self: flex-end;
+}
+.button__edit:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
