@@ -4,5 +4,13 @@
   font-size: 14px;
   line-height: 17px;
   margin: 0;
+  width: 100%;
   margin-top: 29.74px;
+  padding-bottom: 13.34px;
+  border: 0;
+  border-bottom: 1px solid #545454;
+  box-sizing: border-box;
+}
+.popup__profession::placeholder {
+  color: #000000;
 }

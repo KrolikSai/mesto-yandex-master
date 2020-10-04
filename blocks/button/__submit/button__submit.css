@@ -14,3 +14,4 @@
     cursor: pointer;
     opacity: 0.5;
 }
+.button__submit:focus {outline:0;}
