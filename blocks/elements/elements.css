@@ -1,8 +1,10 @@
 .elements {
-    display: grid;
-    grid-template-columns: repeat(3, 282px);
-    grid-template-rows: repeat(2, 361px);
-    column-gap: 18px;
-    row-gap: 21px;
+    width: 69%;
+    margin: auto;
     margin-top: 51px;
 }
+@media screen and (max-width: 1024px) {
+    .elements {
+        margin-top: 36px;
+    }  
+  }

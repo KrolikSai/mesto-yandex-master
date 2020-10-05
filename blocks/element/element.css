@@ -9,3 +9,8 @@
     column-gap: 33px;
     row-gap: 0;
 }
+@media screen and (max-width: 725px) {
+    .element {
+        margin: auto;
+    }  
+  }

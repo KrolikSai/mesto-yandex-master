@@ -3,7 +3,6 @@
     font-family: 'Inter', 'Arial', sans-serif; 
     max-width: 1280px; 
     min-width: 320px;
-    width: 69%;
     margin: auto;
     -moz-osx-font-smoothing: grayscale; 
     -webkit-font-smoothing: antialiased; 
@@ -12,8 +11,14 @@
     -moz-text-size-adjust: 100%; 
     text-rendering: optimizeLegibility; 
 }
-@media (max-width: 320px) {
+@media (max-width: 800px) {
+    .page {
+     width: 80%; 
+    }
+}
+@media (max-width: 425px) {
     .page {
      width: 100%; 
+     margin: auto;
     }
 }

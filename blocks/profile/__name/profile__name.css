@@ -6,6 +6,11 @@
     grid-row: 1/2;
     font-size: 42px;
     font-style: normal;
-    font-weight: 500;
     line-height: 56px;
 }
+@media screen and (max-width: 425px) {
+    .profile__name {
+        padding-bottom: 14px;
+        font-size: 27px;
+    }  
+  }

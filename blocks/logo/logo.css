@@ -2,7 +2,12 @@
     width: 16%;
     height: 45%;
 }
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
+  .logo {
+    padding-left: 27px;
+  }
+}
+@media (max-width: 425px) {
     .logo {
       padding-left: 27px;
       width: 32%;

@@ -4,7 +4,20 @@
     grid-template-rows: 43px 18px;
     column-gap: 24px;
     row-gap: 16px;
-    align-self: baseline;
-    margin-right: 246px;
-    margin-right: auto;
+    margin-right: 246px; 
 }
+@media screen and (max-width: 1024px) {
+    .profile__info {
+        align-self: center;
+        margin-right: 0;
+        margin-bottom: 36px;
+    }  
+  }
+@media screen and (max-width: 425px) {
+    .profile__info {
+        grid-template-columns: 201px 24px;
+        grid-template-rows: 38px 50px;
+        column-gap: 1px;
+        row-gap: 14px;
+    }  
+  }

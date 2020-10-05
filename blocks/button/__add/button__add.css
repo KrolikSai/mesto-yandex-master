@@ -10,3 +10,11 @@
     cursor: pointer;
 }
 .button__add:focus {outline:0;}
+
+@media screen and (max-width: 961px) {
+    .button__add {
+        width: 282px;
+        margin: auto;
+        width: 100%;
+    }  
+  }
