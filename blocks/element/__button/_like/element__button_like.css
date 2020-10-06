@@ -1,4 +1,4 @@
-.button__like {
+.element__button_like {
     height: 18px;
     width: 21px;
     grid-column: 2/3;
@@ -9,5 +9,5 @@
     padding-right: 17.24px;
     align-self: center;
 }
-.button__like:focus {outline:0;}
+.element__button_like:focus {outline:0;}
     

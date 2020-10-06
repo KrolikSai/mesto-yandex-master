@@ -1,4 +1,4 @@
-.button__submit {
+.popup__button_submit {
     margin-top: 48px;
     margin-bottom: 25px;
     background-color: #000000;
@@ -10,8 +10,8 @@
     line-height: 21.78px;
     box-shadow: none;
 }
-.button__submit:hover {
+.popup__button_submit:hover {
     cursor: pointer;
     opacity: 0.5;
 }
-.button__submit:focus {outline:0;}
+.popup__button_submit:focus {outline:0;}

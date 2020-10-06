@@ -1,18 +1,18 @@
-.button__add {
+.profile__button_add {
     height: 50px;
     width: 150px;
     border: 2px solid #FFFFFF;    
     box-sizing: border-box;
     background-color: #000000;
 }
-.button__add:hover {
+.profile__button_add:hover {
     opacity: 0.5;
     cursor: pointer;
 }
-.button__add:focus {outline:0;}
+.profile__button_add:focus {outline:0;}
 
 @media screen and (max-width: 961px) {
-    .button__add {
+    .profile__button_add {
         width: 282px;
         margin: auto;
         width: 100%;
