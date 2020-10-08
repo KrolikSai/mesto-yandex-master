@@ -1,0 +1,19 @@
+.element__button-like {
+    height: 21px;
+    width: 21px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    box-shadow: none;
+    border: none;
+    background-color: #FFFFFF;
+    padding-right: 17px;
+    align-self: center;
+    background-image: url("../../../images/Vector.svg");
+    background-repeat: no-repeat;
+}
+.element__button-like:focus {outline:0;}
+.element__button-like:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+    

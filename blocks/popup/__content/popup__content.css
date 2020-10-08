@@ -2,3 +2,12 @@
     margin: auto;
     width: 83%;
 }
+@media screen and (max-width: 420px) {
+    .popup__content {
+    width: 430px;
+    width: 282px;
+    left: 19px;
+    top: 123px;
+    border-radius: 10px;
+    }  
+  }

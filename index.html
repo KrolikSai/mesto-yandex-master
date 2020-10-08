@@ -7,83 +7,69 @@
     <title>Mesto Russia</title>
   </head>
   <body class="page">
-    <section class="header">
+    <header class="header">
             <img alt="Место Russia лого" class="header__logo" src="images/logo.svg">
-            <img class="header__line">
-    </section>
+    </header>
     <main class="content">
       <section class="profile">
         <img alt="аватар" class="profile__avatar" src="images/image.jpg">
         <div class="profile__info">
-          <div class="profile__info_name">
             <h2 class="profile__name">Жак-Ив Кусто</h2>
-          </div>
-          <div class="profile__info_profession">
             <p class="profile__profession">Исследователь океана</p>
-          </div>
-          <button class="profile__button_edit">
-            <img alt="кнопка редактировать" src="images/edit-button.png">
-          </button>
+          <button class="profile__button-edit"></button>
         </div>
-        <button class="profile__button_add">
-          <img alt="кнопка добавить" src="images/add-button.png">
-        </button>
+        <button class="profile__button-add"></button>
       </section>
         <section class="elements">
           <div class="elements__grid">
             <div class="element">
               <img alt="Фотография Кейптауна" class="element__logo" src="images/capetown.jpg">
               <h2 class="element__name">Кейптаун</h2>
-              <button class="element__button_like"><img alt="Кнопка нравится" src="images/like-image.svg"></button>
+              <button class="element__button-like"></button>
             </div>
             <div class="element">
               <img alt="Фотография Окаванго" class="element__logo" src="images/okavango.jpg">
               <h2 class="element__name">Дельта Окаванго</h2>
-              <button class="element__button_like"><img alt="Кнопка нравится" src="images/like-image.svg"></button>
+              <button class="element__button-like"></button>
             </div>
             <div class="element">
               <img alt="Фотография Скай" class="element__logo" src="images/skye.jpg">
               <h2 class="element__name">Скай</h2>
-              <button class="element__button_like"><img alt="Кнопка нравится" src="images/like-image.svg"></button>
+              <button class="element__button-like"></button>
             </div>
             <div class="element">
               <img alt="Фотография Фрейзер" class="element__logo" src="images/fraser-island.jpg">
               <h2 class="element__name">Остров Фрейзер</h2>
-              <button class="element__button_like"><img alt="Кнопка нравится" src="images/like-image.svg"></button>
+              <button class="element__button-like"></button>
             </div>
             <div class="element">
               <img alt="Фотография Амстердам" class="element__logo" src="images/amsterdam.jpg">
               <h2 class="element__name">Амстердам</h2>
-              <button class="element__button_like"><img alt="Кнопка нравится" src="images/like-image.svg"></button>
+              <button class="element__button-like"></button>
             </div>
             <div class="element">
-              <div class="element">
                 <img alt="Фотография Серенгети" class="element__logo" src="images/serengeti.jpg">
                 <h2 class="element__name">Серенгети</h2>
-                <button class="element__button_like"><img alt="Кнопка нравится" src="images/like-image.svg"></button>
-              </div>
+                <button class="element__button-like"></button>
             </div>
           </div>
         </section>
     </main>
-    <section class="popup">
-        <div class="popup__container">
-            <img src="images/close-image.png" alt="Иконка закрытия" class="popup__close-image">
-            <div class="popup__content">
-              <h1 class="popup__title">Редактировать профиль</h1>       
-              <div class="popup__field-one">
-                <input value = "Жак-Ив Кусто" type="text" class="input__text input__text_type_name">
-              </div>
-              <div class="popup__field-two">
-                <input value = "Исследователь океана" type="text" class="input__text input__text_type_aboutyou">
-              </div>
-               <button class="popup__button_submit">Сохранить</button>
-            </div>
-        </div>
-    </section>
-    <section class="footer">
+    <footer class="footer">
       <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
-    </section>
-    <script src="./index.js/index.js"></script>
+    </footer>
+    <section class="popup">
+      <!-- check the typography -->
+      <div class="popup__container">
+          <button class="popup__close-image"></button>
+          <form class="popup__content">
+            <h1 class="popup__title">Редактировать профиль</h1>       
+            <input value = "Жак-Ив Кусто" type="text" class="input__text input__text_type_name">
+            <input value = "Исследователь океана" type="text" class="input__text input__text_type_aboutyou">
+            <button class="popup__button_submit">Сохранить</button>
+          </form>
+      </div>
+  </section>
+    <script src="./scripts/scripts.js"></script>
     </body>
 </html>
