@@ -9,6 +9,9 @@
     font-size: 18px;
     line-height: 21.78px;
     box-shadow: none;
+    border: none;
+    border-radius: 2px;
+    right: 0;
 }
 .popup__button_submit:hover {
     cursor: pointer;

@@ -18,18 +18,9 @@ let profileInfoProfession = profileInfo.querySelector(".profile__profession")
 let formElementOne = popup.querySelector(".input__text_type_name");
 let formElementTwo = popup.querySelector(".input__text_type_aboutyou");
 
-function addName() {
-    profileInfoName.textContent = 'Жак-Ив Кусто';
-}
-addName();
-function addProfession() {
-    profileInfoProfession.textContent = 'Исследователь океана';
-}
-addProfession();
-
 function formSubmitName (evt) {
     evt.preventDefault(); 
-
+    let popupContainer = document.querySelector(".popup__container");
     let name = popupContainer.querySelector(".input__text_type_name");
     let profession = popupContainer.querySelector(".input__text_type_aboutyou");
    
@@ -38,9 +29,5 @@ nameHolder.textContent = name.value; //textContent динамически при
 let professionProfile = profileInfo.querySelector('.profile__profession');
 professionProfile.textContent = profession.value; 
 }
-
-let name = popupContainer.querySelector(".input__text_type_name");
-let profession = popupContainer.querySelector(".input__text_type_aboutyou");
-
 buttonSavePopup.addEventListener('click', formSubmitName); 
 

@@ -6,12 +6,19 @@
     grid-column: 2/3;
     grid-row: 1/2;
     box-shadow: none;
-    align-self: flex-end;
+    align-self: center;
     background: none;
     background-image: url("../../../images/edit.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media screen and (max-width: 961px) {
+    .profile__button-edit {
+        height: 18px;
+        width: 18px;
+    }  
+  }
 .profile__button-edit:hover {
     opacity: 0.5;
     cursor: pointer;

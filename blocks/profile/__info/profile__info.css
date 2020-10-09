@@ -4,20 +4,19 @@
     grid-template-rows: 59px 18px;
     column-gap: 24px;
     row-gap: 0;
-    margin-right: 246px; 
+    margin-right: 28%;
 }
 @media screen and (max-width: 1024px) {
     .profile__info {
+        margin: auto;
         align-self: center;
-        margin-right: 0;
         margin-bottom: 36px;
     }  
   }
 @media screen and (max-width: 425px) {
     .profile__info {
         grid-template-columns: 201px 24px;
-        grid-template-rows: 38px 14px;
+        grid-template-rows: 52px 14px;
         column-gap: 1px;
-        row-gap: 14px;
     }  
   }

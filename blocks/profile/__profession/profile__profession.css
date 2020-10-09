@@ -1,5 +1,4 @@
 .profile__profession {
-    margin: 0;
     font-weight: 400;
     color: #FFFFFF;
     grid-column: 1/2;
@@ -10,9 +9,11 @@
     line-height: 22px;
     text-overflow: ellipsis; 
     white-space: nowrap; 
+    margin: 0;
 }
 @media screen and (max-width: 961px) {
     .profile__profession {
+        margin: auto;
         margin-bottom: 36px;
     }  
   }
