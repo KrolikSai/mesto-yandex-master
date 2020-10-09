@@ -2,7 +2,7 @@ let popup = document.querySelector(".popup");
 let profileInfo = document.querySelector(".profile__info");
 let buttonOpenPopup = profileInfo.querySelector(".profile__button-edit");
 let buttonClosePopup = popup.querySelector(".popup__close-image");
-let buttonSavePopup = popup.querySelector(".popup__button_submit");
+let buttonSavePopup = popup.querySelector(".popup__button-submit");
 let popupContainer = document.querySelector(".popup__container");
 
 let popupToggle = () => {
