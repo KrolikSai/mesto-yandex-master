@@ -12,8 +12,8 @@
     background-repeat: no-repeat;
 }
 .element__button-like:focus {outline:0;}
+
 .element__button-like:hover {
     cursor: pointer;
     opacity: 0.5;
 }
-    

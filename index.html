@@ -1,75 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <link rel="stylesheet" href="page/index.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesto Russia</title>
-  </head>
-  <body class="page">
-    <header class="header">
-            <img alt="Место Russia лого" class="header__logo" src="images/logo.svg">
-    </header>
-    <main class="content">
-      <section class="profile">
-        <img alt="аватар" class="profile__avatar" src="images/image.jpg">
-        <div class="profile__info">
-            <h2 class="profile__name">Жак-Ив Кусто</h2>
-            <p class="profile__profession">Исследователь океана</p>
-          <button type="button" class="profile__button-edit"></button>
-        </div>
-        <button type="button" class="profile__button-add"></button>
-      </section>
-        <section class="elements">
-          <div class="elements__grid">
-            <div class="element">
-              <img alt="Фотография Кейптауна" class="element__logo" src="images/capetown.jpg">
-              <h2 class="element__name">Кейптаун</h2>
-              <button type="button" class="element__button-like"></button>
-            </div>
-            <div class="element">
-              <img alt="Фотография Окаванго" class="element__logo" src="images/okavango.jpg">
-              <h2 class="element__name">Дельта Окаванго</h2>
-              <button type="button" class="element__button-like"></button>
-            </div>
-            <div class="element">
-              <img alt="Фотография Скай" class="element__logo" src="images/skye.jpg">
-              <h2 class="element__name">Скай</h2>
-              <button type="button" class="element__button-like"></button>
-            </div>
-            <div class="element">
-              <img alt="Фотография Фрейзер" class="element__logo" src="images/fraser-island.jpg">
-              <h2 class="element__name">Остров Фрейзер</h2>
-              <button type="button" class="element__button-like"></button>
-            </div>
-            <div class="element">
-              <img alt="Фотография Амстердам" class="element__logo" src="images/amsterdam.jpg">
-              <h2 class="element__name">Амстердам</h2>
-              <button type="button" class="element__button-like"></button>
-            </div>
-            <div class="element">
-                <img alt="Фотография Серенгети" class="element__logo" src="images/serengeti.jpg">
-                <h2 class="element__name">Серенгети</h2>
-                <button type="button" class="element__button-like"></button>
-            </div>
-          </div>
-        </section>
-    </main>
-    <footer class="footer">
-      <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
-    </footer>
-    <section class="popup">
-      <!-- check the typography -->
-      <div class="popup__container">
-          <button type="button" class="popup__close-image"></button>
-          <form class="popup__content">
-            <h1 class="popup__title">Редактировать профиль</h1>       
-            <input value = "Жак-Ив Кусто" type="text" class="input__text input__text_type_name">
-            <input value = "Исследователь океана" type="text" class="input__text input__text_type_aboutyou">
-            <button class="popup__button-submit">Сохранить</button>
-          </form>
+
+<head>
+  <link rel="stylesheet" href="page/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesto Russia</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img alt="Место Russia лого" class="header__logo" src="images/logo.svg">
+  </header>
+  <main class="content">
+    <section class="profile">
+      <img alt="аватар" class="profile__avatar" src="images/image.jpg">
+      <div class="profile__info">
+        <h2 class="profile__name">Жак-Ив Кусто</h2>
+        <p class="profile__profession">Исследователь океана</p>
+        <button type="button" class="profile__button-edit"></button>
       </div>
+      <button type="button" class="profile__button-add"></button>
+    </section>
+    <section class="elements">
+      <div class="elements__grid">
+
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
+  </footer>
+  <section class="popup popup_type_edit">
+    <div class="popup__container popup_type_edit__container">
+      <button type="button" class="popup__close-image"></button>
+      <form class="popup__content popup_type_edit__content">
+        <h1 class="popup__title popup_type_edit__title">Редактировать профиль</h1>
+        <input value="Жак-Ив Кусто" type="text" class="input__text input__text_type_name">
+        <input value="Исследователь океана" type="text" class="input__text input__text_type_aboutyou">
+        <button class="popup__button-submit popup_type_edit__button-submit">Сохранить</button>
+      </form>
+    </div>
   </section>
-    <script src="./scripts/scripts.js"></script>
-    </body>
+  <section class="popup popup_type_new-card">
+    <div class="popup__container popup_type_new-card__container">
+      <button type="button" class="popup__close-image"></button>
+      <form class="popup__content popup_type_new-card__content">
+        <h1 class="popup__title popup_type_new-card__title">Новое место</h1>
+        <input placeholder="Название" type="text" class="input__text input__text_type_name-add">
+        <input placeholder="Ссылка на картинку" type="text" class="input__text input__text_type_link">
+        <button class="popup__button-submit  popup_type_new-card__button-submit">Создать</button>
+      </form>
+    </div>
+  </section>
+  <section class="popup popup_type_image">
+
+  </section>
+  <template class="template">
+    <div class="element">
+      <img alt="Фотография места" class="element__logo" src=''>
+      <h2 class="element__name"></h2>
+      <button type="button" class="element__button-like"></button>
+    </div>
+  </template>
+  <script src="./scripts/scripts.js"></script>
+</body>
+
 </html>
